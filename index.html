@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beatriz Bellacosa — Acompanhante Terapêutica</title>
+  <meta name="description" content="Beatriz Bellacosa Alves — Acompanhante Terapêutica especializada em TEA, ABA, TCC Infantil e Modelo Denver. São Paulo - SP." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=Nunito:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="src/css/style.css" />
+</head>
+<body>
+
+  <!-- ================================================================
+       NAVBAR
+       ================================================================ -->
+  <nav id="navbar">
+    <div class="nav-inner">
+      <span class="nav-logo">Beatriz Bellacosa</span>
+      <button class="hamburger" id="hamburger" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#atuacao">Atuação</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#certificados">Formação</a></li>
+        <li><a href="#contato" class="nav-cta">Contato</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ================================================================
+       HERO
+       ================================================================ -->
+  <section id="hero">
+
+    <!-- Fundo orgânico animado -->
+    <div class="hero-bg" aria-hidden="true">
+      <div class="hero-shape-1"></div>
+      <div class="hero-shape-2"></div>
+      <div class="hero-shape-3"></div>
+    </div>
+
+    <div class="hero-content">
+
+      <!-- ---- VISUAL: Logo + badges ---- -->
+      <div class="hero-visual">
+
+        <!-- Peças de puzzle decorativas (fora do círculo) -->
+        <svg class="puzzle-deco pd-1" viewBox="0 0 60 60" aria-hidden="true">
+          <path d="M12 12 Q15 6 18 12 L30 12 Q36 6 42 12 L48 12 L48 24 Q54 27 48 30 L48 42 Q54 48 48 48 L30 48 Q27 54 24 48 L12 48 L12 36 Q6 33 12 30 L12 12Z" fill="currentColor"/>
+        </svg>
+        <svg class="puzzle-deco pd-2" viewBox="0 0 60 60" aria-hidden="true">
+          <path d="M12 12 Q15 6 18 12 L30 12 Q36 6 42 12 L48 12 L48 24 Q54 27 48 30 L48 42 Q54 48 48 48 L30 48 Q27 54 24 48 L12 48 L12 36 Q6 33 12 30 L12 12Z" fill="currentColor"/>
+        </svg>
+        <svg class="puzzle-deco pd-3" viewBox="0 0 60 60" aria-hidden="true">
+          <path d="M12 12 Q15 6 18 12 L30 12 Q36 6 42 12 L48 12 L48 24 Q54 27 48 30 L48 42 Q54 48 48 48 L30 48 Q27 54 24 48 L12 48 L12 36 Q6 33 12 30 L12 12Z" fill="currentColor"/>
+        </svg>
+
+        <div class="logo-scene">
+
+          <!-- Anel pontilhado girando -->
+          <div class="ring-spin"  aria-hidden="true"></div>
+
+          <!-- Anel com gradiente cônico -->
+          <div class="ring-glow" aria-hidden="true"></div>
+
+          <!-- Círculo da imagem -->
+          <div class="logo-circle">
+            <img
+              src="src/imagens/logo.jpg"
+              alt="Logo Beatriz Bellacosa — Acompanhante Terapêutica"
+            />
+          </div>
+
+          <!-- Badge: Disponível -->
+          <div class="badge-available" aria-label="Disponível para atendimentos">
+            <span class="dot-green"></span>
+            <span>Disponível para atendimentos</span>
+          </div>
+
+          <!-- Badge: Especialista TEA -->
+          <div class="badge-tea" aria-label="Especialista TEA">
+            <svg viewBox="0 0 60 60" fill="currentColor" aria-hidden="true">
+              <path d="M12 12 Q15 6 18 12 L30 12 Q36 6 42 12 L48 12 L48 24 Q54 27 48 30 L48 42 Q54 48 48 48 L30 48 Q27 54 24 48 L12 48 L12 36 Q6 33 12 30 L12 12Z"/>
+            </svg>
+            Especialista TEA
+          </div>
+
+          <!-- Badge: Símbolo infinito -->
+          <div class="badge-inf" aria-label="Neurodiversidade">
+            <svg viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M30 30 C30 15 10 5 5 20 C0 35 20 55 30 30 C40 5 80 5 90 30 C80 55 40 55 30 30" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+              <path d="M90 30 C90 15 110 5 115 20 C120 35 100 55 90 30" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+            </svg>
+          </div>
+
+          <!-- Badge: Anos de experiência -->
+          <div class="badge-years" aria-label="Mais de 2 anos de experiência">
+            <span class="y-num">+2</span>
+            <span class="y-label">anos de<br>experiência</span>
+          </div>
+
+        </div><!-- /logo-scene -->
+      </div><!-- /hero-visual -->
+
+      <!-- ---- TEXTO ---- -->
+      <div class="hero-text">
+        <p class="hero-eyebrow">Acompanhante Terapêutica · São Paulo</p>
+        <h1 class="hero-name">
+          Beatriz<br />
+          <span class="italic-name">Bellacosa</span>
+        </h1>
+        <p class="hero-tagline">
+          Cuidado especializado para crianças com TEA,
+          deficiências cognitivas e necessidades especiais.
+        </p>
+        <div class="hero-chips">
+          <span class="chip">TCC Infantil</span>
+          <span class="chip">ABA</span>
+          <span class="chip">Modelo Denver</span>
+          <span class="chip">Autismo</span>
+        </div>
+        <div class="hero-actions">
+          <a href="#contato" class="btn-primary">Agendar Conversa</a>
+          <a href="#sobre"   class="btn-ghost">Saiba mais ↓</a>
+        </div>
+      </div>
+
+    </div><!-- /hero-content -->
+
+    <div class="scroll-hint" aria-hidden="true">
+      <div class="scroll-line"></div>
+    </div>
+
+  </section>
+
+  <!-- ================================================================
+       SOBRE
+       ================================================================ -->
+  <section id="sobre">
+    <div class="container">
+      <div class="section-label">Sobre mim</div>
+      <div class="sobre-grid">
+        <div class="sobre-text">
+          <h2 class="section-title">Uma presença que<br /><em>faz diferença</em></h2>
+          <p>Sou Beatriz Bellacosa Alves, formanda em Psicologia (conclusão prevista para 2026) e Acompanhante Terapêutica com atuação desde 2023. Minha prática é guiada pelo cuidado genuíno com cada criança e pela crença de que o desenvolvimento floresce quando se sente seguro e acolhido.</p>
+          <p>Com formação contínua em ABA, TCC Infantil, Modelo Denver e Análise Comportamental, ofereço suporte técnico e humano às crianças com Transtorno do Espectro Autista (TEA), Síndrome de Down e outras condições de desenvolvimento.</p>
+          <p>Atualmente realizo atendimentos como AT na <strong>Clínica Conforto Terapias Integradas</strong>, acumulando experiência prática supervisionada ao longo da graduação.</p>
+        </div>
+        <div class="sobre-stats">
+          <div class="stat-card">
+            <span class="stat-num">+2</span>
+            <span class="stat-label">anos de atuação como AT</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">+574h</span>
+            <span class="stat-label">de formação especializada</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">9</span>
+            <span class="stat-label">certificações concluídas</span>
+          </div>
+          <div class="stat-card accent">
+            <svg class="infinity-svg" viewBox="0 0 120 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-label="Símbolo da neurodiversidade">
+              <path d="M30 30 C30 15 10 5 5 20 C0 35 20 55 30 30 C40 5 80 5 90 30 C80 55 40 55 30 30" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+              <path d="M90 30 C90 15 110 5 115 20 C120 35 100 55 90 30" stroke="currentColor" stroke-width="7" stroke-linecap="round"/>
+            </svg>
+            <span class="stat-label">Neurodiversidade<br />com amor</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       ATUAÇÃO
+       ================================================================ -->
+  <section id="atuacao">
+    <div class="container">
+      <div class="section-label">Áreas de atuação</div>
+      <h2 class="section-title centered">Como posso<br /><em>ajudar sua família</em></h2>
+      <div class="cards-grid">
+
+        <div class="service-card card-highlight">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M28 8C28 5.8 29.8 4 32 4C34.2 4 36 5.8 36 8V12H48C49.1 12 50 12.9 50 14V26H54C56.2 26 58 27.8 58 30C58 32.2 56.2 34 54 34H50V46C50 47.1 49.1 48 48 48H36V52C36 54.2 34.2 56 32 56C29.8 56 28 54.2 28 52V48H16C14.9 48 14 47.1 14 46V34H10C7.8 34 6 32.2 6 30C6 27.8 7.8 26 10 26H14V14C14 12.9 14.9 12 16 12H28V8Z" fill="currentColor" opacity="0.2" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Transtorno do Espectro Autista (TEA)</h3>
+          <p>Acompanhamento especializado com base em ABA, Modelo Denver e estratégias naturalistas — promovendo autonomia, comunicação e inclusão.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <ellipse cx="32" cy="28" rx="20" ry="18" fill="currentColor" opacity="0.1" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 28 Q28 20 32 28 Q36 36 42 28" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+              <path d="M26 46 Q30 56 38 52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <h3>TCC Infantil</h3>
+          <p>Técnicas da Terapia Cognitivo-Comportamental adaptadas para crianças, com abordagem lúdica e acolhedora.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M32 52 C32 52 10 38 10 24 C10 17 15 12 22 12 C26 12 30 14 32 18 C34 14 38 12 42 12 C49 12 54 17 54 24 C54 38 32 52 32 52Z" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M22 28 L28 34 L38 22" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Síndrome de Down e Deficiências Cognitivas</h3>
+          <p>Suporte individualizado promovendo inclusão, desenvolvimento funcional e autonomia.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="10" y="24" width="44" height="30" rx="3" fill="currentColor" opacity="0.1" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M10 32 L32 20 L54 32" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+              <rect x="26" y="38" width="12" height="16" rx="2" stroke="currentColor" stroke-width="2.5"/>
+            </svg>
+          </div>
+          <h3>Acompanhamento Terapêutico (AT)</h3>
+          <p>Suporte ao aluno em contexto escolar e clínico, com manejo comportamental e comunicação familiar.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="32" cy="32" r="22" fill="currentColor" opacity="0.1" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M26 22 L46 32 L26 42 Z" fill="currentColor" opacity="0.5" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/>
+            </svg>
+          </div>
+          <h3>Intervenção pelo Brincar</h3>
+          <p>Brincadeiras estratégicas e jogos simbólicos como instrumentos terapêuticos de aprendizagem.</p>
+        </div>
+
+        <div class="service-card">
+          <div class="service-icon">
+            <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <circle cx="20" cy="18" r="7" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="44" cy="18" r="7" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2.5"/>
+              <circle cx="32" cy="26" r="5" fill="currentColor" opacity="0.12" stroke="currentColor" stroke-width="2.5"/>
+              <path d="M8 52 C8 42 14 36 20 36 C24 36 28 38 32 42 C36 38 40 36 44 36 C50 36 56 42 56 52" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+            </svg>
+          </div>
+          <h3>Orientação Familiar</h3>
+          <p>Suporte às famílias para compreender o desenvolvimento da criança e aplicar estratégias no cotidiano.</p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       EXPERIÊNCIA
+       ================================================================ -->
+  <section id="experiencia">
+    <div class="container">
+      <div class="section-label">Trajetória</div>
+      <h2 class="section-title">Experiência &amp;<br /><em>Educação</em></h2>
+      <div class="timeline">
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">2022 – 2026</div>
+          <div class="timeline-card">
+            <span class="timeline-tag education">Formação</span>
+            <h3>Graduação em Psicologia</h3>
+            <p>Último ano em curso — conclusão prevista para dezembro de 2026. CRP a ser obtido após formatura.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot current"></div>
+          <div class="timeline-date">Ago 2023 – atual</div>
+          <div class="timeline-card highlighted">
+            <span class="timeline-tag work">Experiência atual</span>
+            <h3>Acompanhante Terapêutica</h3>
+            <p><strong>Clínica Conforto Terapias Integradas</strong> — Atendimento a crianças com TEA e necessidades especiais, aplicando técnicas ABA e estratégias naturalistas em ambiente clínico.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Mar – Ago 2023</div>
+          <div class="timeline-card">
+            <span class="timeline-tag work">Experiência</span>
+            <h3>Recepcionista — Clínica Freixo</h3>
+            <p>Atendimento ao público e suporte administrativo em clínica de saúde.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Ago 2022 – Mar 2023</div>
+          <div class="timeline-card">
+            <span class="timeline-tag work">Experiência</span>
+            <h3>Recepcionista — Clínica MedicalSeer</h3>
+            <p>Atendimento ao público em clínica médica.</p>
+          </div>
+        </div>
+
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-date">Jun – Ago 2022</div>
+          <div class="timeline-card">
+            <span class="timeline-tag work">Experiência</span>
+            <h3>Recepcionista — Clínica Psicoblue</h3>
+            <p>Primeiro contato com ambiente clínico em psicologia.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       CERTIFICADOS
+       ================================================================ -->
+  <section id="certificados">
+    <div class="container">
+      <div class="section-label">Formação complementar</div>
+      <h2 class="section-title centered">Certificações &amp;<br /><em>Cursos</em></h2>
+      <div class="certs-grid">
+        <div class="cert-card"><div class="cert-hours">240h</div><div class="cert-info"><h4>ABA e Autismo para Profissionais</h4><p>RB Psicologia — Regina Bérgamo<br/><em>Terapeuta ABA · 2025</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">100h</div><div class="cert-info"><h4>ABA e Estratégias Naturalistas</h4><p>Instituto Singular — Mayra Gaiato<br/><em>Análise Comportamental · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">50h</div><div class="cert-info"><h4>Formação de Acompanhante Terapêutico</h4><p>Instituto Singular — Mayra Gaiato<br/><em>Formação AT · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">50h</div><div class="cert-info"><h4>Intervenções Baseadas no Modelo Denver</h4><p>Instituto Singular — Mayra Gaiato<br/><em>Estratégias Denver · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">40h</div><div class="cert-info"><h4>ABA: Análise Comportamental do Espectro Autista</h4><p>Centro Educacional Sete de Setembro<br/><em>TEA · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">40h</div><div class="cert-info"><h4>Terapia Cognitivo-Comportamental Infantil</h4><p>Centro Educacional Sete de Setembro<br/><em>TCC Infantil · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">40h</div><div class="cert-info"><h4>Análise Comportamental Infantil Clínica</h4><p>Centro Educacional Sete de Setembro<br/><em>ABA Clínica · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">10h</div><div class="cert-info"><h4>Abordagens Inclusivas para Crianças com TEA</h4><p>Rhema Educação<br/><em>Seminário Inclusão · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">2h</div><div class="cert-info"><h4>Comportamentos Interferentes na Escola</h4><p>Adapte Educação — EducaTEA<br/><em>Manejo Comportamental · 2024</em></p></div></div>
+        <div class="cert-card"><div class="cert-hours">2h</div><div class="cert-info"><h4>É Hora de Brincar!</h4><p>Instituto Singular — Keli Santos<br/><em>Brincadeiras Estratégicas · 2024</em></p></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       CONTATO
+       ================================================================ -->
+  <section id="contato">
+    <div class="container">
+      <div class="contact-inner">
+        <div class="contact-text">
+          <div class="section-label light">Vamos conversar</div>
+          <h2 class="section-title light">Pronta para<br /><em>receber sua família</em></h2>
+          <p>Se você busca um acompanhamento terapêutico especializado e humano para seu filho, entre em contato. Atendo como AT, com foco em crianças neurodivergentes e com necessidades especiais.</p>
+          <p class="contact-note">📍 São Paulo – SP</p>
+        </div>
+        <div class="contact-action">
+          <div class="contact-deco" aria-hidden="true">
+            <svg viewBox="0 0 200 100" xmlns="http://www.w3.org/2000/svg">
+              <path d="M50 50 C50 25 10 8 5 33 C0 58 40 92 50 50 C65 8 135 8 150 50 C135 92 65 92 50 50" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+              <path d="M150 50 C150 25 190 8 195 33 C200 58 160 92 150 50" stroke="white" stroke-width="8" fill="none" stroke-linecap="round"/>
+            </svg>
+          </div>
+          <a href="https://wa.me/5511968356211?text=Olá%20Beatriz!%20Gostaria%20de%20saber%20mais%20sobre%20seus%20atendimentos." class="btn-whatsapp" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem no WhatsApp">
+            <svg class="wa-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z"/>
+              <path d="M12 0C5.373 0 0 5.373 0 12c0 2.123.555 4.116 1.527 5.845L.057 23.743c-.073.283.014.582.234.784.153.143.353.218.559.218.075 0 .15-.01.224-.031l6.101-1.598C8.748 23.496 10.35 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0zm0 21.818c-1.618 0-3.183-.457-4.537-1.322l-.324-.202-3.351.878.894-3.263-.21-.334C3.509 15.833 3.056 13.96 3.056 12c0-4.935 4.01-8.945 8.944-8.945 4.935 0 8.945 4.01 8.945 8.945 0 4.934-4.01 8.818-8.945 8.818z"/>
+            </svg>
+            Chamar no WhatsApp
+          </a>
+          <p class="contact-num">+55 (11) 96835-6211</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================================================================
+       FOOTER
+       ================================================================ -->
+  <footer>
+    <div class="container footer-inner">
+      <p>© 2026 Beatriz Bellacosa Alves — Acompanhante Terapêutica</p>
+      <p class="footer-note">Graduanda em Psicologia · Formatura prevista para 2026</p>
+    </div>
+  </footer>
+
+  <script src="src/javascript/script.js"></script>
+</body>
+</html>
